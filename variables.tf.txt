@@ -8,16 +8,6 @@ variable "pre_sub_id" {
   type = string
 }
 
-#  subscription
-variable "subscription" {
-  type = string
-}
-#  subscription
-variable "managementgroup" {
-  type = string
-}
-
-
 /*
 # Location
 variable "Location" {
