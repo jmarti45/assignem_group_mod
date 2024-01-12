@@ -9,7 +9,7 @@ variable "pre_sub_id" {
 }
 
 #  subscription
-variable "subscription" {
+variable "managementgroup" {
   type = string
 }
 
