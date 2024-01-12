@@ -13,7 +13,7 @@ module "Groups" {
 resource "azurerm_role_assignment" "management" {
   scope                = "a9ec01ef-74c5-41c9-97c7-94aeefcef2cc"
   role_definition_name = "reader"
-  principal_id         = azuread_group.group1.object_id
+  principal_id         = "add6e66b-9ef0-43f4-ab42-258dbbe25c32"
 }
 
 
