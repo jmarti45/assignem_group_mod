@@ -12,7 +12,7 @@ module "Groups" {
 module "Spoke2" {
   source = "git::https://github.com/jmarti45/assignem_group_mod.git"
 
-  Subscription = "modul2"
+  Subscription = var.subscription
 
 }
 
