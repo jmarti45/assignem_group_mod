@@ -8,7 +8,7 @@ variable "pre_sub_id" {
   type = string
 }
 
-#  subscription
+#  managementgroup
 variable "managementgroup" {
   type = string
 }
