@@ -8,7 +8,7 @@ module "Groups" {
   securitygroup = "az-mg-enagas-wintel"
 
 }
-
+/*
 module "Spoke2" {
   source = "git::https://github.com/jmarti45/assignem_group_mod.git"
 
@@ -17,3 +17,4 @@ module "Spoke2" {
 }
 
 #### Test
+*/
