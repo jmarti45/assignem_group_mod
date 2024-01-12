@@ -18,20 +18,3 @@ terraform {
   }
 }
 
-
-/*
-
-provider "azurerm" {
-  skip_provider_registration = "true"
-  alias                      = "dev"
-  subscription_id            = var.dev_sub_id
-  features {}
-}
-
-provider "azurerm" {
-  skip_provider_registration = "true"
-  alias                      = "pre"
-  subscription_id            = var.pre_sub_id
-  features {}
-}
-*/
