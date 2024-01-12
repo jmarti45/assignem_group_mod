@@ -10,7 +10,7 @@ module "Groups" {
 }
 
 
-module "Groups" {
+module "assigns" {
   source = "git::https://github.com/jmarti45/assignment_group_orig.git"
   providers = {
 
