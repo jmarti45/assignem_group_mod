@@ -4,6 +4,6 @@ module "MGroups" {
   providers = {
 
   }
-  mgroup = "a9ec01ef-74c5-41c9-97c7-94aeefcef2cc"
-
+  mgroup        = "a9ec01ef-74c5-41c9-97c7-94aeefcef2cc"
+  securitygroup = "az-mg-enagas-wintel"
 }
