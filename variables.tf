@@ -12,7 +12,10 @@ variable "pre_sub_id" {
 variable "subscription" {
   type = string
 }
-
+#  subscription
+variable "managementgroup" {
+  type = string
+}
 
 
 /*
