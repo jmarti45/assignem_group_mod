@@ -8,10 +8,7 @@ variable "pre_sub_id" {
   type = string
 }
 
-#  managementgroup
-variable "managementgroup" {
-  type = string
-}
+
 
 
 
