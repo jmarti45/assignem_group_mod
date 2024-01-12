@@ -16,6 +16,6 @@ module "MGroups" {
   providers = {
 
   }
-  managementgroup = "a9ec01ef-74c5-41c9-97c7-94aeefcef2cc"
+  mgroup = "a9ec01ef-74c5-41c9-97c7-94aeefcef2cc"
 
 }
